@@ -1,3 +1,48 @@
+# User Experience (UX) Section
+
+## Objective
+
+The goal of this simple online game is to entertain users, especially those passionate about basketball. The game's landing page captivates their interest with an inspiring image, a title, and a brief description outlining the game's objective: scoring 21 points.
+
+## Users Benefits and Goals
+
+                ![figure no. 1](/assets/images/new-project-1-1.webp)
+
+## Design
+
+The game boasts multiple interactive elements. Notably, there are two main buttons: 'host' and 'guest.' These buttons allow players to earn 0, 1, 2, or 3 points with every move. The accumulated points are displayed in real-time. Additionally, based on the points scored, a relevant photo showcases beneath the gaming console. For example, scoring 3 points reveal an image of a player taking a shot from the 3-point line.
+
+               ![figure no. 2](/assets/images/new-project-1-2-1.webp)
+
+When a player reaches 21 points, the game ends and displays a message announcing the winner. To begin a fresh game, players can use the 'Reset Button'.
+
+			![figure no. 3](/assets/images/new-project-1-3-1.webp)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
