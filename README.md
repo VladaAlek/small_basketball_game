@@ -6,17 +6,20 @@ The goal of this simple online game is to entertain users, especially those pass
 
 ## Users Benefits and Goals
 
-						![Figure no. 1](/assets/images/new-project-1-1.webp "Figure no. 1")
+
+						![Figure no. 1](/assets/images/new-project-1-1.webp?raw=true "Figure no. 1")
 
 ## Design
 
 The game boasts multiple interactive elements. Notably, there are two main buttons: 'host' and 'guest.' These buttons allow players to earn 0, 1, 2, or 3 points with every move. The accumulated points are displayed in real-time. Additionally, based on the points scored, a relevant photo showcases beneath the gaming console. For example, scoring 3 points reveal an image of a player taking a shot from the 3-point line.
 
-						![Figure no. 2](/assets/images/new-project-1-2-1.webp "Figure no. 2")   
+
+						![Figure no. 2](/assets/images/new-project-1-2-1.webp?raw=true "Figure no. 2")
 
 When a player reaches 21 points, the game ends and displays a message announcing the winner. To begin a fresh game, players can use the 'Reset Button'.
 
-						![Figure no. 3](/assets/images/new-project-1-3-1.webp "Figure no. 3")
+
+						![Figure no. 3](/assets/images/new-project-1-3-1.webp?raw=true "Figure no. 3")
 
 
 
