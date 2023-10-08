@@ -41,10 +41,45 @@
  p {
      font-size: 50px;
      font-style: italic;
-     color: rgb(19, 18, 18);
+     font-weight: 700;
+     /*text-shadow: 1px 1px rgb(184, 179, 179);*/
+     color: rgb(7, 7, 7);
  }
 
  #versus-id {
      font-size: 60px;
      color: #ebd812;
+ }
+
+ .gameContainer {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     /*margin-top: 20px;*/
+     background-coor: aliceblue;
+     /*erase bacg color later*/
+     height: 300px;
+     margin-top: 30px;
+     box-shadow: 2px 3px 14px 1px rgba(0, 0, 0, 0.89);
+ }
+
+ #playBtnHost,
+ #playBtnGuest {
+     width: 300px;
+     height: 150px;
+     padding: 20px;
+     border: 2px solid gray;
+     background-color: gray;
+     border-radius: 10px;
+     font-size: 50px;
+     font-weight: 400;
+     transition: 0.5s;
+ }
+
+ #playBtnHost:hover,
+ #playBtnGuest:hover {
+     border: 3px solid rgb(182, 8, 8);
+     color: red;
+     /*use color picker to chose colors from the colorgradient palette*/
  }
