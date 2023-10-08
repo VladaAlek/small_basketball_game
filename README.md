@@ -1,25 +1,66 @@
-# User Experience (UX) Section
+# Small Basketball Game
+
+## User Experience (UX) Section
 
 ## Objective
 
-The goal of this simple online game is to entertain users, especially those passionate about basketball. The game's landing page captivates their interest with an inspiring image, a title, and a brief description outlining the game's objective: scoring 21 points.
+The goal of this simple online game is to entertain users, especially those passionate about basketball. The game's objective: scoring 21 points.
+
+                        ![Figure no. 1] (/assets/images/new-project-1-1.webp?raw=true "Figure no. 1")
 
 ## Users Benefits and Goals
 
+						
 
-						![Figure no. 1](/assets/images/new-project-1-1.webp?raw=true "Figure no. 1")
-
-## Design
-
-The game boasts multiple interactive elements. Notably, there are two main buttons: 'host' and 'guest.' These buttons allow players to earn 0, 1, 2, or 3 points with every move. The accumulated points are displayed in real-time. Additionally, based on the points scored, a relevant photo showcases beneath the gaming console. For example, scoring 3 points reveal an image of a player taking a shot from the 3-point line.
 
 
 						![Figure no. 2](/assets/images/new-project-1-2-1.webp?raw=true "Figure no. 2")
 
-When a player reaches 21 points, the game ends and displays a message announcing the winner. To begin a fresh game, players can use the 'Reset Button'.
+### Users Benefits and Goals
+
+#### A) For the first-time user
+
+The website provides entertainment for both solo and duo players. Furthermore, novices can leverage the platform to grasp the foundational rules of basketball. A blend of text and visual elements enhances user engagement and evokes positive emotions.
+
+#### For returning and frequent users
+
+The game's appeal may lie in its quick completion time, catering perfectly to instances when players are pressed for time.
+
+### Design
+
+The game's **landing page** captivates their interest with an inspiring image, a title, and a brief but motivational description outlining the game's objective: scoring 21 points.
+
+The game boasts multiple **interactive elements**.
+Notably, there are two main buttons: *'host'* and *'guest.'* These buttons allow players to earn 0, 1, 2, or 3 points with every click. The accumulated points are displayed in real-time on the **result board.** Additionally, based on the points scored, relevant **photos** are showcased beneath the gaming console. For example, scoring 3 points reveals an image of a player taking a shot from the 3-point line.
+The **conclusion of the game** is marked by a relevant message announcing the winer.
+The **Reset Game** button is used to initiate a fresh start of the game.
 
 
-						![Figure no. 3](/assets/images/new-project-1-3-1.webp?raw=true "Figure no. 3")
+
+
+
+## Technologies Used
+
+HTML, CSS, JavaScript
+
+[Balsamiq](https://balsamiq.com/ "Balsamiq") - used for wireframing.
+
+- Photos:
+
+[Pinterest](https://www.pinterest.com/ "Pinterest") - Used for creaton of the collection for Creative Commons licensed photos.
+
+[Faststone Image Viewer](https://www.faststone.org/ "Faststone Image Viewer")
+    - was utilized for logo creation, image resizing, and photo editing for the website.
+
+### Typography
+
+[Google Fonts](https://fonts.google.com/” "Google Fonts") was used to link the "Raleway" font. These have been used on all pages throughout the project. Sans Serif is the fallback font.
+
+[Git](https://github.com/ "Git")
+	-Version control was managed using Git, with commits executed via the Gitpod terminal and pushes directed to GitHub.
+
+[GitHub](https://github.com/ "GitHub")
+	-The project's code is stored on GitHub after being pushed from Git.
 
 
 
@@ -30,15 +71,16 @@ When a player reaches 21 points, the game ends and displays a message announcing
 
 
 
+## Testing
+
+- [W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator") 
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validator") 
 
 
+- [Python Tutor](https://pythontutor.com/ "Python Tutor") used as a visual debugger for visually analyzing code step-by-step.
 
-
-
-
-
-
-
+- [Jshint]<https://jshint.com/> "Jshint") used as a visual debugger and validator.
 
 
 
