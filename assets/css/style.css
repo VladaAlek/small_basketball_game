@@ -3,5 +3,24 @@
      text-align: center;
      padding: 50px;
      box-sizing: border-box;
-     background-color: aqua;
+     background-image: linear-gradient(to right bottom, #370528, #7e1e39, #bd4d36, #e58d21, #ebd812);
+     height: 100vh;
+ }
+
+ .title-div {
+     background-image: url('/assets/images/title-div-photo.webp');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     padding: 20px;
+     padding-top: 100px;
+     height: 320px;
+     /*text-align: center;*/
+ }
+
+ h1,
+ h2 {
+     color: rgb(194, 194, 24);
+     font-size: 40px;
+     margin-bottom: 120px;
  }

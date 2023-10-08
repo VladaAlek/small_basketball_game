@@ -52,6 +52,8 @@ HTML, CSS, JavaScript
 [Faststone Image Viewer](https://www.faststone.org/ "Faststone Image Viewer")
     - was utilized for logo creation, image resizing, and photo editing for the website.
 
+[Mycolor Space](https://mycolor.space/ "Mycolor Space") used to create background collor gradient.
+
 ### Typography
 
 [Google Fonts](https://fonts.google.com/” "Google Fonts") was used to link the "Raleway" font. These have been used on all pages throughout the project. Sans Serif is the fallback font.
