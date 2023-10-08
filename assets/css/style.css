@@ -51,6 +51,12 @@
      color: #ebd812;
  }
 
+ #score1,
+ #score2 {
+     font-size: 100px;
+     color: aliceblue;
+ }
+
  .gameContainer {
      display: flex;
      justify-content: space-around;
