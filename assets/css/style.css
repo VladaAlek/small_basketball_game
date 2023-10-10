@@ -89,3 +89,22 @@
      color: red;
      /*use color picker to chose colors from the colorgradient palette*/
  }
+
+ #resetBtn {
+     width: 400px;
+     height: 120px;
+     margin-top: 40px;
+     padding: 20px;
+     border: 2px solid gray;
+     background-color: gray;
+     border-radius: 10px;
+     font-size: 50px;
+     font-weight: 400;
+     transition: 0.5s;
+ }
+
+ #resetBtn:hover {
+     border: 3px solid rgb(182, 8, 8);
+     color: red;
+     /*use color picker to chose colors from the colorgradient palette*/
+ }

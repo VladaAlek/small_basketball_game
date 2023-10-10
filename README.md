@@ -89,7 +89,7 @@ Mozilla Dev-Tool color picker
 
 - [Jshint]<https://jshint.com/> "Jshint") used as a visual debugger and validator.
 
-
+- Favicon used curtesy of: <a href="https://www.flaticon.com/free-icons/sports-and-competition" title="sports and competition icons">Sports and competition icons created by Freepik - Flaticon</a>
 
 
 
