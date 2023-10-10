@@ -44,6 +44,13 @@ function updateScore(player) {
         document.getElementById('score2').innerHTML = score2;
     }
 }
+// check CI running project to see how to add comments in functions
+
+// task - develop this function tomorrow so that the immages are not visible
+// on the page
+function hideAllImages() {
+
+}
 
 // functions for the event listeners for players buttons
 
