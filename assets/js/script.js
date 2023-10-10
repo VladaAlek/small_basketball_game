@@ -17,7 +17,7 @@ function playHost() {
 function playGuest() {
     updateScore(2);
 }
-
+// check the code in updateScore function
 function updateScore(player) {
     // random score between 0 and 3
     let score = Math.floor(Math.random() * 4);
@@ -32,7 +32,7 @@ function updateScore(player) {
     } else if (score === 3) {
         document.getElementById('threePoints').style.display = 'block';
     }
-    
+
     //increase the score
     if (player === 1) {
         score1 += score;
