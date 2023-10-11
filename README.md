@@ -91,11 +91,11 @@ Mozilla Dev-Tool color picker
 
 - Favicon used curtesy of: <a href="https://www.flaticon.com/free-icons/sports-and-competition" title="sports and competition icons">Sports and competition icons created by Freepik - Flaticon</a>
 
+[www.w3schools]: <https://www.w3schools.com/jsref/prop_style_display.asp> for Style display Property
 
 
 
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
 

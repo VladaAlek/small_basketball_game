@@ -10,15 +10,32 @@ document.getElementById('playBtnHost').addEventListener('click', playHost);
 document.getElementById('playBtnGuest').addEventListener('click', playGuest);
 document.getElementById('resetBtn').addEventListener('click', resetGame);
 
+//calls for playBtnHost function with nested updateScore function
 function playHost() {
     updateScore(1);
 }
-
+//calls for playGuest function with nested updateScore function
 function playGuest() {
     updateScore(2);
 }
+
+// Hide previous images - it doesn´t work when I call it
+function hideAllImages() {
+    let divs = document.getElementsByClassName('imageDisplay');
+
+    for (let i = 0; i < divs.length; i++) {
+        let images = divs[i].getElementsByTagName('img');
+        for (let j = 0; j < images.length; j++) {
+            images[j].style.display = 'none';
+        }
+    }
+}
+
+hideAllImages();
+
 // check the code in updateScore function
 function updateScore(player) {
+
     // random score between 0 and 3
     let score = Math.floor(Math.random() * 4);
 
@@ -33,14 +50,14 @@ function updateScore(player) {
         document.getElementById('threePoints').style.display = 'block';
     }
 
-    //increase the score
+    //increase the original score for the value of the outcome of the if statement from above
     if (player === 1) {
         score1 += score;
-        // update the score
+        // update the score1
         document.getElementById('score1').innerHTML = score1;
     } else {
         score2 += score;
-        //update the score
+        // update the score1
         document.getElementById('score2').innerHTML = score2;
     }
 }
