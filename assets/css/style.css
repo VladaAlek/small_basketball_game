@@ -1,7 +1,7 @@
  body {
      font-family: "Raleway", sans-serif;
      text-align: center;
-     padding: 50px;
+     padding: 5px;
      box-sizing: border-box;
      background-image: linear-gradient(to right bottom, #370528, #7e1e39, #bd4d36, #e58d21, #ebd812);
  }
@@ -11,8 +11,7 @@
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
-     padding: 20px;
-     padding-top: 100px;
+     padding: 15px;
      height: 320px;
      /*text-align: center;*/
  }
@@ -20,8 +19,8 @@
  /*use color-picker in mozzila to change this yellow color*/
  h1,
  h2 {
-     color: #eace14;
-     font-size: 40px;
+     color: #eacd14;
+     font-size: 20px;
      margin-bottom: 120px;
  }
 
@@ -33,12 +32,12 @@
      margin-top: 40px;
      min-height: 150px;
      max-height: 300px;
-     background-clor: gray;
-     /*delete or change color later*/
+     background-color: aliceblue;
+     padding-top: 30px;
  }
 
  p {
-     font-size: 50px;
+     font-size: 26px;
      font-style: italic;
      font-weight: 700;
      /*text-shadow: 1px 1px rgb(184, 179, 179);*/
@@ -47,7 +46,7 @@
 
  #versus-id {
      font-size: 60px;
-     color: #ebd812;
+     color: #3a0629;
  }
 
  #score1,
@@ -62,8 +61,6 @@
      align-items: center;
      flex-wrap: wrap;
      /*margin-top: 20px;*/
-     background-coor: aliceblue;
-     /*erase bacg color later*/
      height: 300px;
      margin-top: 30px;
      box-shadow: 2px 3px 14px 1px rgba(0, 0, 0, 0.89);
@@ -71,8 +68,8 @@
 
  #playBtnHost,
  #playBtnGuest {
-     width: 300px;
-     height: 150px;
+     width: 250px;
+     height: 120px;
      padding: 20px;
      border: 2px solid #eacd14;
      background-color: aliceblue;
@@ -90,20 +87,33 @@
  }
 
  #resetBtn {
-     width: 400px;
+     width: 250px;
      height: 120px;
-     margin-top: 40px;
+     margin: 50px 0;
      padding: 20px;
-     border: 2px solid gray;
-     background-color: gray;
+     border: 2px solid #eacd14;
+     background-color: aliceblue;
      border-radius: 10px;
-     font-size: 50px;
+     font-size: 35px;
      font-weight: 400;
      transition: 0.5s;
  }
 
  #resetBtn:hover {
-     border: 3px solid rgb(182, 8, 8);
-     color: red;
-     /*use color picker to chose colors from the colorgradient palette*/
+     border: 3px solid #3a0629;
+     color: #3a0629;
+     font-size: 55px;
+ }
+
+ /*style container for images*/
+ #miss,
+ #onePoint,
+ #twoPoints,
+ #threePoints {
+     width: 250px;
+     height: 120px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     padding: 15px;
  }
