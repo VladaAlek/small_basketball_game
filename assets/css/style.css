@@ -4,7 +4,6 @@
      padding: 50px;
      box-sizing: border-box;
      background-image: linear-gradient(to right bottom, #370528, #7e1e39, #bd4d36, #e58d21, #ebd812);
-     height: 100vh;
  }
 
  .title-div {
@@ -21,7 +20,7 @@
  /*use color-picker in mozzila to change this yellow color*/
  h1,
  h2 {
-     color: rgb(233, 233, 10);
+     color: #eace14;
      font-size: 40px;
      margin-bottom: 120px;
  }
@@ -75,8 +74,8 @@
      width: 300px;
      height: 150px;
      padding: 20px;
-     border: 2px solid gray;
-     background-color: gray;
+     border: 2px solid #eacd14;
+     background-color: aliceblue;
      border-radius: 10px;
      font-size: 50px;
      font-weight: 400;
@@ -85,9 +84,9 @@
 
  #playBtnHost:hover,
  #playBtnGuest:hover {
-     border: 3px solid rgb(182, 8, 8);
-     color: red;
-     /*use color picker to chose colors from the colorgradient palette*/
+     border: 3px solid #3a0629;
+     color: #3a0629;
+     font-size: 55px;
  }
 
  #resetBtn {
