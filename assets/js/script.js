@@ -31,10 +31,10 @@ function hideAllImages() {
     }
 }
 
-hideAllImages();
-
 // check the code in updateScore function
 function updateScore(player) {
+
+    hideAllImages();
 
     // random score between 0 and 3
     let score = Math.floor(Math.random() * 4);
@@ -69,7 +69,6 @@ function hideAllImages() {
 
 }
 
-// functions for the event listeners for players buttons
 
 // ad event listeners to Reser button
 
