@@ -19,21 +19,11 @@ function playGuest() {
     updateScore(2);
 }
 
-// Hide previous images - it doesn´t work when I call it
-function hideAllImages() {
-    let divs = document.getElementsByClassName('imageDisplay');
-
-    for (let i = 0; i < divs.length; i++) {
-        let images = divs[i].getElementsByTagName('img');
-        for (let j = 0; j < images.length; j++) {
-            images[j].style.display = 'none';
-        }
-    }
-}
 
 // check the code in updateScore function
 function updateScore(player) {
 
+    // calling for hideAllImages() function at the beggining of new game (or meybe to be in the reset function?!!)
     hideAllImages();
 
     // random score between 0 and 3
@@ -60,29 +50,43 @@ function updateScore(player) {
         // update the score1
         document.getElementById('score2').innerHTML = score2;
     }
-}
-// check CI running project to see how to add comments in functions
 
-// task - develop this function tomorrow so that the immages are not visible
-// on the page
+    // Check for winner by calling the appropriate function
+    checkForWinner();
+}
+
+// Hide previous images
+// REMINDER - IN CSS ALL PHOTOS ARE DISPLAY = none
 function hideAllImages() {
+    let divs = document.getElementsByClassName('imageDisplay');
 
+    for (let i = 0; i < divs.length; i++) {
+        let images = divs[i].getElementsByTagName('img');
+        for (let j = 0; j < images.length; j++) {
+            images[j].style.display = 'none';
+        }
+    }
 }
+// determins the winner of the game and 
+function checkForWinner() {
+    if (score1 >= 21) {
+        document.getElementById('message').innerHTML = 'Host wins!';
+        disablePlayButtons();
+    } else if (score2 >= 21) {
+        document.getElementById('message').innerHTML = 'Guest wins!';
+        disablePlayButtons();
+    }
+}
+
+// check CI running project to see how to add comments in functions
 
 
 // ad event listeners to Reser button
 
-// find the way to declere the winner
-
-// create function to update score
-
 // create function to reset game
-
-// find the way to hide previous images
 
 
 // Show the image based on the score *
 
-// Check for winner
 
 
