@@ -67,7 +67,8 @@ function hideAllImages() {
         }
     }
 }
-// determins the winner of the game and 
+// determins the winner of the game and delivers the report 
+// add in index.html the div with id message
 function checkForWinner() {
     if (score1 >= 21) {
         document.getElementById('message').innerHTML = 'Host wins!';

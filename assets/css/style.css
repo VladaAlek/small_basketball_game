@@ -20,7 +20,7 @@
  h1,
  h2 {
      color: #eacd14;
-     font-size: 20px;
+     font-size: 26px;
      margin-bottom: 120px;
  }
 
@@ -119,4 +119,20 @@
      height: 120px;
      object-fit: cover;
      /*display: none;*/
+ }
+
+ @media screen and (min-width: 500px) {
+
+     h1,
+     h2 {
+         font-size: 40px;
+     }
+ }
+
+ @media screen and (min-width: 810px) {
+
+     h1,
+     h2 {
+         font-size: 50px;
+     }
  }
