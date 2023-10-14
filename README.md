@@ -4,22 +4,14 @@
 
 ## Objective
 
+
 The goal of this simple online game is to entertain users, especially those passionate about basketball. The game's objective: scoring 21 points.
 
-                        ![Figure no. 1](/assets/images/new-Project-1-1.webp?raw=true "Figure no. 1")
-
+![Figure no. 1](assets/images/new-project-1-1.webp)
 ## Users Benefits and Goals
 
-						
-
-
-
-						![Figure no. 2](/assets/images/new-project-1-2-1.webp?raw=true "Figure no. 2")
+![Figure no. 2](assets/images/new-project-1-2-1.webp)
         
-
-            
-    
-
 ### Users Benefits and Goals
 
 #### A) For the first-time user
@@ -39,7 +31,7 @@ Notably, there are two main buttons: *'host'* and *'guest.'* These buttons allow
 The **conclusion of the game** is marked by a relevant message announcing the winer.
 The **Reset Game** button is used to initiate a fresh start of the game.
 
- ![Figure no. 3](/assets/images/new-project-1-3-1.webp?raw=true "Figure no. 3")
+ ![Figure no. 3](assets/images/new-project-1-3-1.webp)
 
 
 ## Technologies Used
