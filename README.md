@@ -6,7 +6,7 @@
 
 The goal of this simple online game is to entertain users, especially those passionate about basketball. The game's objective: scoring 21 points.
 
-                        ![Figure no. 1](/assets/images/new-Project-1-1.png?raw=true "Figure no. 1")
+                        ![Figure no. 1](../assets/images/new-Project-1-1.png?raw=true "Figure no. 1")
 
 ## Users Benefits and Goals
 
@@ -14,10 +14,10 @@ The goal of this simple online game is to entertain users, especially those pass
 
 
 
-						![Figure no. 2](/assets/images/new-project-1-2-1.png?raw=true "Figure no. 2")
+						![Figure no. 2](./assets/images/new-project-1-2-1.png?raw=true "Figure no. 2")
 
-                        
-                        ./
+            
+    
 
 ### Users Benefits and Goals
 
@@ -38,8 +38,7 @@ Notably, there are two main buttons: *'host'* and *'guest.'* These buttons allow
 The **conclusion of the game** is marked by a relevant message announcing the winer.
 The **Reset Game** button is used to initiate a fresh start of the game.
 
-
-
+ ![Figure no. 3](/assets/images/new-project-1-3-1.webp?raw=true "Figure no. 3")
 
 
 ## Technologies Used
@@ -103,37 +102,3 @@ Mozilla Dev-Tool color picker
 Welcome,
 
 This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
