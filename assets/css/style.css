@@ -4,6 +4,7 @@
      padding: 5px;
      box-sizing: border-box;
      background-image: linear-gradient(to right bottom, #370528, #7e1e39, #bd4d36, #e58d21, #ebd812);
+     height: 100vh;
  }
 
  .title-div {
@@ -106,9 +107,10 @@
 
  /*style container for images*/
 
- .imageDisplay {
-     width: 294px;
+ .imageDiplay {
+     width: 794px;
      height: 620px;
+     object-fit: cover;
  }
 
  #miss,
@@ -121,7 +123,7 @@
      /*display: none;*/
  }
 
- @media screen and (min-width: 500px) {
+ */ @media screen and (min-width: 500px) {
 
      h1,
      h2 {
