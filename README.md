@@ -6,7 +6,7 @@
 
 The goal of this simple online game is to entertain users, especially those passionate about basketball. The game's objective: scoring 21 points.
 
-                        ![Figure no. 1](./assets/images/new-Project-1-1.png "Figure no. 1")
+                        ![Figure no. 1](/assets/images/new-Project-1-1.png?raw=true "Figure no. 1")
 
 ## Users Benefits and Goals
 
@@ -14,7 +14,10 @@ The goal of this simple online game is to entertain users, especially those pass
 
 
 
-						![Figure no. 2](./assets/images/new-project-1-2-1.png "Figure no. 2")
+						![Figure no. 2](/assets/images/new-project-1-2-1.png?raw=true "Figure no. 2")
+
+                        
+                        ./
 
 ### Users Benefits and Goals
 
