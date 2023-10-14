@@ -115,6 +115,11 @@
      transform: translate(-50%, -50%);
  }
 
+ /*style winner images*/
+ #host-winer-image {
+     display: none;
+ }
+
  /*reset button style*/
 
  #resetBtn {

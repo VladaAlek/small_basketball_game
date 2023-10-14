@@ -71,7 +71,8 @@ function hideAllImages() {
 // add in index.html the div with id message
 function checkForWinner() {
     if (score1 >= 21) {
-        document.getElementById('message').innerHTML = 'Host wins!';
+        //document.getElementById('host-winer-message').innerHTML = 'Host wins!';
+        document.getElementById('host-winer-image').style.display = 'block';
         disablePlayButtons();
     } else if (score2 >= 21) {
         document.getElementById('message').innerHTML = 'Guest wins!';
