@@ -88,10 +88,10 @@ Mozilla Dev-Tool color picker
 
 [www.w3schools]: <https://www.w3schools.com/jsref/prop_style_display.asp> for Style display Property
 
+[SheCodes](https://www.shecodes.io/athena/121718-how-to-use-transform-translate-50-50-to-center-an-element-in-css "SheCodes") for transform: translate(-50%, -50%) CSS code
 
 
 
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  
