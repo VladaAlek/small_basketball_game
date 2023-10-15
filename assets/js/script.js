@@ -81,6 +81,15 @@ function checkForWinner() {
         disablePlayButtons();
     }
 }
+
+/**
+ * prevent players to play anny more if the score is more than 21 points
+ */
+
+function disablePlayButtons {
+    document.getElementById('playBtnHost').disabled = true;
+    document.getElementById('playBtnGuest').disabled = true;
+}
 /**
  * reset scores for both players to zero
  * calls hideAllImages

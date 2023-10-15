@@ -73,7 +73,7 @@ Mozilla Dev-Tool color picker
 
 
 
-## Testing
+## Testing and debugging
 
 - [W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator") 
 
@@ -93,6 +93,8 @@ Mozilla Dev-Tool color picker
 
 Console reports used to indicate the missing parts of the code and determine the next coding steps.
 ![Console report](assets/images/console.webp)
+
+[www.w3schools.com](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp "www.w3schools.com") for Button disabled Property
 
 
 
