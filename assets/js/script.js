@@ -83,8 +83,10 @@ function checkForWinner() {
 }
 /**
  * reset scores for both players to zero
+ * calls hideAllImages
  */
 function resetGame() {
+    hideAllImages();
     score1 = 0;
     score2 = 0;
     document.getElementById('score1').innerHTML = score1;
