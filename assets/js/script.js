@@ -68,14 +68,12 @@ function hideAllImages() {
     }
 }
 // determins the winner of the game and delivers the report 
-// add in index.html the div with id message
+
 function checkForWinner() {
 
     if (score1 >= 21) {
-        //document.getElementById('host-winer-message').innerHTML = 'Host wins!';
         hideAllImages();
         document.getElementById('host-winer-image').style.display = 'block';
-        //hostWinnerMessage.style.zIndex = '10';
         disablePlayButtons();
     } else if (score2 >= 21) {
         hideAllImages();
