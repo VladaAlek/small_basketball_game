@@ -83,6 +83,15 @@ function checkForWinner() {
         disablePlayButtons();
     }
 }
+/**
+ * reset scores for both players to zero
+ */
+function resetGame() {
+    score1 = 0;
+    score2 = 0;
+    document.getElementById('score1').innerHTML = score1;
+    document.getElementById('score2').innerHTML = score2;
+}
 
 // check CI running project to see how to add comments in functions
 
