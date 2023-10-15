@@ -104,7 +104,9 @@
  #miss,
  #onePoint,
  #twoPoints,
- #threePoints {
+ #threePoints,
+ #host-winer-image,
+ #guest-winer-image {
      display: none;
      width: 310px;
      height: 310px;
@@ -116,9 +118,7 @@
  }
 
  /*style winner images*/
- #host-winer-image {
-     display: none;
- }
+
 
  /*reset button style*/
 
