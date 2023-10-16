@@ -25,7 +25,16 @@
      z-index: 1000;
  }
 
- #instruction-content {}
+ #instruction-content {
+     background-color: rgb(27, 25, 25);
+     padding: 20px;
+     border-radius: 10px;
+     position: relative;
+     width: 80%;
+     height: 50vh;
+ }
+
+
 
  .title-div {
      background-image: url('../images/title-div-photo.webp');
