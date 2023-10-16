@@ -1,13 +1,13 @@
  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
- /*debug linear-gradient*/
+ 
  body {
-     font-family: "Raleway", sans-serif;
+     font-family: 'Raleway', sans-serif;
      text-align: center;
      padding: 5px;
      box-sizing: border-box;
      background-image: linear-gradient(to right bottom, #370528, #7e1e39, #bd4d36, #e58d21, #ebd812);
-     height: 100vh;
+     min-height: 100vh;
  }
 
  .title-div {
