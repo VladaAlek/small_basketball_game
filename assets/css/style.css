@@ -46,9 +46,30 @@
  ul li {
      list-style-type: none;
      font-size: 2.2rem;
-     margin-bottom: 1.5rem;
+     margin-bottom: 2rem;
  }
 
+ #start-game-btn {
+     width: 150px;
+     height: 80px;
+     padding: 10px;
+     border: 2px solid #eacd14;
+     background-color: aliceblue;
+     border-radius: 10px;
+     font-size: 36;
+     font-weight: 400;
+     transition: 0.5s;
+     margin-top: 70px;
+ }
+
+ #start-game-btn:hover,
+ #start-game-btn:hover {
+     border: 3px solid #3a0629;
+     color: #3a0629;
+ }
+
+
+ /*style for landing section*/
 
  .title-div {
      background-image: url('../images/title-div-photo.webp');
