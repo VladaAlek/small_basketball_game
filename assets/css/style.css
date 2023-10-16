@@ -1,6 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
- 
+
  body {
      font-family: 'Raleway', sans-serif;
      text-align: center;
@@ -9,6 +9,23 @@
      background-image: linear-gradient(to right bottom, #370528, #7e1e39, #bd4d36, #e58d21, #ebd812);
      min-height: 100vh;
  }
+
+ /*styling instruction-container and its content*/
+
+ #instruction-container {
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: rgba(0, 0, 0, 0.7);
+     z-index: 1000;
+ }
+
+ #instruction-content {}
 
  .title-div {
      background-image: url('../images/title-div-photo.webp');
@@ -19,6 +36,7 @@
      height: 320px;
      /*text-align: center;*/
  }
+
 
  /*use color-picker in mozzila to change this yellow color*/
  h1,
