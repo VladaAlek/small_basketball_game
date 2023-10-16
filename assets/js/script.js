@@ -86,7 +86,7 @@ function checkForWinner() {
  * prevent players to play anny more if the score is more than 21 points
  */
 
-function disablePlayButtons {
+function disablePlayButtons() {
     document.getElementById('playBtnHost').disabled = true;
     document.getElementById('playBtnGuest').disabled = true;
 }
