@@ -1,5 +1,8 @@
 // algorithm 
 
+// add eventListner to Start Game button
+document.getElementById('start-game-btn').addEventListener('click', hideInstruction);
+
 // initialize the score
 let score1 = 0;
 let score2 = 0;
@@ -105,6 +108,12 @@ function resetGame() {
     document.getElementById('playBtnHost').disabled = false;
     document.getElementById('playBtnGuest').disabled = false;
 }
+
+// removes the instruction from the screen
+function hideInstruction() {
+    document.getElementById('instruction-container').style.display = 'none';
+}
+
 
 // check CI running project to see how to add comments in functions
 
