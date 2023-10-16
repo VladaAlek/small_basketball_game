@@ -96,10 +96,14 @@ function disablePlayButtons() {
  */
 function resetGame() {
     hideAllImages();
+    // set score to 0
     score1 = 0;
     score2 = 0;
     document.getElementById('score1').innerHTML = score1;
     document.getElementById('score2').innerHTML = score2;
+    // activate the players buttons 
+    document.getElementById('playBtnHost').disabled = false;
+    document.getElementById('playBtnGuest').disabled = false;
 }
 
 // check CI running project to see how to add comments in functions
