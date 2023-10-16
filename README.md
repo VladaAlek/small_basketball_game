@@ -90,6 +90,7 @@ Mozilla Dev-Tool color picker
 
 [SheCodes](https://www.shecodes.io/athena/121718-how-to-use-transform-translate-50-50-to-center-an-element-in-css "SheCodes") for transform: translate(-50%, -50%) CSS code
 
+[flex-wrap](http://https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap "flex-wrap") used as learning source.
 
 Console reports used to indicate the missing parts of the code and determine the next coding steps.
 ![Console report](assets/images/console.webp)
