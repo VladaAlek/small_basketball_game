@@ -25,15 +25,30 @@
      z-index: 1000;
  }
 
+ /*add media queries, especially for the flipped small-size mobile devices*/
  #instruction-content {
-     background-color: rgb(27, 25, 25);
+     background-color: #1b1919;
      padding: 20px;
      border-radius: 10px;
      position: relative;
      width: 80%;
      height: 50vh;
+     color: #fff;
  }
 
+ #instruction-title {
+     color: #fff;
+ }
+
+ ul {
+     text-align: left;
+ }
+
+ ul li {
+     list-style-type: none;
+     font-size: 2.2rem;
+     margin-bottom: 1.5rem;
+ }
 
 
  .title-div {

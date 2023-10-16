@@ -51,6 +51,8 @@ HTML, CSS, JavaScript
 
 [Box-Shadow CSS Generator](https://html-css-js.com/ "Box-Shadow CSS Generator") used to create box shadows.
 
+![Readibility](assets/images/coolors-contrast-checker-white.webp) coolors contrast checker
+
 Mozilla Dev-Tool color picker
 
 ### Typography
