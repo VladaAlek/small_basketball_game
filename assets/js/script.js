@@ -24,7 +24,7 @@ function playGuest() {
 /**
  * creates the random score and increase its values
  * make crore photos visible
-*/ 
+*/
 function updateScore(player) {
 
     // calling for hideAllImages() function at the beggining of new game
@@ -36,6 +36,7 @@ function updateScore(player) {
     // Show the respective image based on the score
     if (score === 0) {
         document.getElementById('miss').style.display = 'block';
+        document.getElementById('audioMiss').play();
     } else if (score === 1) {
         document.getElementById('onePoint').style.display = 'block';
     } else if (score === 2) {
@@ -61,7 +62,7 @@ function updateScore(player) {
 
 /**
  * iterates through imageDisplay to make them invisible on the screen
-*/ 
+*/
 function hideAllImages() {
     let divs = document.getElementsByClassName('imageDisplay');
 
