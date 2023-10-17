@@ -1,11 +1,9 @@
-// algorithm 
-
-// add eventListner to Start Game button
-document.getElementById('start-game-btn').addEventListener('click', hideInstruction);
-
 // initialize the score
 let score1 = 0;
 let score2 = 0;
+
+// add eventListner to Start Game button
+document.getElementById('start-game-btn').addEventListener('click', hideInstruction);
 
 // ad event listeners to Host and Guest buttons
 // attach the functions to the event listeners
@@ -17,16 +15,19 @@ document.getElementById('resetBtn').addEventListener('click', resetGame);
 function playHost() {
     updateScore(1);
 }
+
 //calls for playGuest function with nested updateScore function
 function playGuest() {
     updateScore(2);
 }
 
-
-// check the code in updateScore function
+/**
+ * creates the random score and increase its values
+ * make crore photos visible
+*/ 
 function updateScore(player) {
 
-    // calling for hideAllImages() function at the beggining of new game (or meybe to be in the reset function?!!)
+    // calling for hideAllImages() function at the beggining of new game
     hideAllImages();
 
     // random score between 0 and 3
@@ -58,8 +59,9 @@ function updateScore(player) {
     checkForWinner();
 }
 
-// Hide previous images
-// REMINDER - IN CSS ALL PHOTOS ARE DISPLAY = none
+/**
+ * iterates through imageDisplay to make them invisible on the screen
+*/ 
 function hideAllImages() {
     let divs = document.getElementsByClassName('imageDisplay');
 
@@ -70,8 +72,10 @@ function hideAllImages() {
         }
     }
 }
-// determins the winner of the game and delivers the report 
 
+/**
+ * Determins the winner of the game and delivers the report 
+ */
 function checkForWinner() {
 
     if (score1 >= 21) {
@@ -95,7 +99,7 @@ function disablePlayButtons() {
 }
 /**
  * reset scores for both players to zero
- * calls hideAllImages
+ * calls hideAllImages function / removes all photos from the screen
  */
 function resetGame() {
     hideAllImages();
@@ -109,21 +113,12 @@ function resetGame() {
     document.getElementById('playBtnGuest').disabled = false;
 }
 
-// removes the instruction from the screen
+/**
+ * removes the Instruction layer from the screen
+ */
 function hideInstruction() {
     document.getElementById('instruction-container').style.display = 'none';
 }
-
-
-// check CI running project to see how to add comments in functions
-
-
-// ad event listeners to Reser button
-
-// create function to reset game
-
-
-// Show the image based on the score *
 
 
 
