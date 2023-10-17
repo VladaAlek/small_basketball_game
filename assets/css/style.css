@@ -225,6 +225,35 @@
 
  /*styling 404 page*/
 
- .proba {
-     color: red;
+ #error-title {
+     font-size: 180px;
+     margin-top: 150px;
+     text-shadow: 0.4rem 0.4rem #000000b3;
+     height: 20vh;
+ }
+
+ #error-page-paragraph {
+     font-size: 40px;
+ }
+
+ #error-page-button {
+     width: 150px;
+     height: 80px;
+     padding: 10px;
+     color: #1b1919;
+     background-color: #fff;
+     border: 3px solid #eacd14;
+     border-radius: 10px;
+     font-size: 26px;
+     font-weight: 700;
+     transition: 0.5s;
+     margin-top: 70px;
+     text-decoration: none;
+     margin-top: 60px;
+ }
+
+ #error-page-button:hover {
+     border: 2px solid #eacd14;
+     color: #1b1919;
+     background-color: #eacd14;
  }
