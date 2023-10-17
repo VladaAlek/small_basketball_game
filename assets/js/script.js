@@ -39,10 +39,13 @@ function updateScore(player) {
         document.getElementById('audioMiss').play();
     } else if (score === 1) {
         document.getElementById('onePoint').style.display = 'block';
+        document.getElementById('audioOnePoint').play();
     } else if (score === 2) {
         document.getElementById('twoPoints').style.display = 'block';
+        document.getElementById('audioTwoPoints').play();
     } else if (score === 3) {
         document.getElementById('threePoints').style.display = 'block';
+        document.getElementById('audioThreePoints').play();
     }
 
     //increase the original score for the value of the outcome of the if statement from above
@@ -83,8 +86,10 @@ function checkForWinner() {
         hideAllImages();
         document.getElementById('host-winer-image').style.display = 'block';
         disablePlayButtons();
+        document.getElementById('endGame').play();
     } else if (score2 >= 21) {
         hideAllImages();
+        document.getElementById('endGame').play();
         document.getElementById('guest-winer-image').style.display = 'block';
         disablePlayButtons();
     }
