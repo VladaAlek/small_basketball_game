@@ -119,6 +119,3 @@ function resetGame() {
 function hideInstruction() {
     document.getElementById('instruction-container').style.display = 'none';
 }
-
-
-
