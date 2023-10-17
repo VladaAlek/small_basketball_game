@@ -57,6 +57,8 @@ HTML, CSS, JavaScript
 
 Mozilla Dev-Tool color picker
 
+Source for the audio files in the index.html file
+
 ### Typography
 
 [Google Fonts](https://fonts.google.com/” "Google Fonts") was used to link the "Raleway" font. These have been used on all pages throughout the project. Sans Serif is the fallback font.
@@ -101,7 +103,7 @@ Console reports used to indicate the missing parts of the code and determine the
 
 [www.w3schools.com](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp "www.w3schools.com") for Button disabled Property
 
-
+[Audio Paused](https://www.w3schools.com/jsref/met_audio_pause.asp "Audio Paused") user for stopAllAudio function.
 
 
 This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  

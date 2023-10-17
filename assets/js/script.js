@@ -125,3 +125,14 @@ function resetGame() {
 function hideInstruction() {
     document.getElementById('instruction-container').style.display = 'none';
 }
+// make function to stop the sound overlaping
+// call this function above
+
+function stopAllAudio() {
+    // retrive audio files
+    let audios = document.getElementsByTagName('audio');
+    // for loop 
+    for (let i = 0; i <= audios.length; i++) {
+        audios[i].pause();
+    }
+}
