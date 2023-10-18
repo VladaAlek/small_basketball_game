@@ -57,6 +57,8 @@ HTML, CSS, JavaScript
 
 [PX to REM conversion method](https://www.youtube.com/watch?v=crVDQf7T0d4&t=985s "PX to REM conversion method")
 
+[Audiotrimer](https://audiotrimmer.com/ "Audiotrimer") to reduce the lenght of the audio material
+
 Mozilla Dev-Tool color picker
 
 Source for the audio files in the index.html file
