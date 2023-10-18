@@ -37,31 +37,31 @@
  }
 
  #instruction-title {
-     color: #fff;
+     margin: 0;
+     font-weight: 700;
  }
 
  ul {
-     text-align: center;
+     text-align: left;
  }
 
  ul li {
      list-style-type: none;
-     font-size: 2.2rem;
-     margin-bottom: 2rem;
+     font-size: 1rem;
+     margin-bottom: 0.5rem;
  }
 
  #start-game-btn {
-     width: 150px;
-     height: 80px;
+     width: 120px;
+     height: 60px;
      padding: 10px;
      color: #1b1919;
      background-color: #fff;
-     border: 3px solid #eacd14;
+     border: 3px solid #fff;
      border-radius: 10px;
      font-size: 26px;
      font-weight: 700;
      transition: 0.5s;
-     margin-top: 70px;
  }
 
  #start-game-btn:hover {
@@ -78,18 +78,21 @@
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
-     padding: 15px;
+     padding: 5px;
      height: 320px;
-     /*text-align: center;*/
+     display: flex;
+     align-items: center;
+     justify-content: center;
  }
 
 
  /*use color-picker in mozzila to change this yellow color*/
- h1,
- h2 {
+ /*check font-weight*/
+ h1 {
      color: #eacd14;
-     font-size: 26px;
-     margin-bottom: 120px;
+     font-size: 2rem;
+     font-weight: 700;
+     text-align: center;
  }
 
  #scoreboard {
@@ -97,14 +100,19 @@
      justify-content: space-around;
      align-items: center;
      flex-wrap: wrap;
-     margin-top: 40px;
+     magin-top: 40px;
      min-height: 150px;
-     max-height: 300px;
-     padding-top: 30px;
+     max-height: 200px;
+     padding-bottom: 80px;
+ }
+
+ .score-inner-div {
+     min-height: 150px;
+     max-height: 200px;
  }
 
  p {
-     font-size: 26px;
+     font-size: 2.5rem;
      font-style: italic;
      font-weight: 700;
      /*text-shadow: 1px 1px rgb(184, 179, 179);*/
@@ -113,7 +121,7 @@
 
  #versus-id {
      font-size: 60px;
-     color: #3a0629;
+     color: #eacd14;
  }
 
  #score1,
@@ -127,22 +135,21 @@
      justify-content: space-around;
      align-items: center;
      flex-wrap: wrap;
-     /*margin-top: 20px;*/
-     height: 300px;
-     margin-top: 30px;
+     height: 120px;
+     margin-top: 10px;
      /*margin-bottom: 30px;*/
      box-shadow: 2px 3px 14px 1px rgba(0, 0, 0, 0.89);
  }
 
  #playBtnHost,
  #playBtnGuest {
-     width: 250px;
-     height: 120px;
-     padding: 20px;
-     border: 2px solid #eacd14;
+     width: 125px;
+     height: 60px;
+     padding: 1rem;
+     border: 2px solid aliceblue;
      background-color: aliceblue;
      border-radius: 10px;
-     font-size: 50px;
+     font-size: 20px;
      font-weight: 400;
      transition: 0.5s;
  }
@@ -151,7 +158,7 @@
  #playBtnGuest:hover {
      border: 3px solid #3a0629;
      color: #3a0629;
-     font-size: 55px;
+     font-size: 22px;
  }
 
  /*style container for images*/
@@ -187,38 +194,36 @@
  /*reset button style*/
 
  #resetBtn {
-     width: 250px;
-     height: 120px;
-     margin-top: 50px;
-     padding: 20px;
-     border: 2px solid #eacd14;
+     width: 125px;
+     height: 60px;
+     padding: 1rem;
+     border: 2px solid aliceblue;
      background-color: aliceblue;
      border-radius: 10px;
-     font-size: 35px;
+     font-size: 20px;
      font-weight: 400;
      transition: 0.5s;
+     margin-top: 1rem;
  }
 
  #resetBtn:hover {
      border: 3px solid #3a0629;
      color: #3a0629;
-     font-size: 55px;
+     font-size: 22px;
  }
 
  /*media queris for screen size 500px and bigger*/
 
  @media screen and (min-width: 500px) {
 
-     h1,
-     h2 {
+     h1 {
          font-size: 40px;
      }
  }
 
  @media screen and (min-width: 810px) {
 
-     h1,
-     h2 {
+     h1 {
          font-size: 50px;
      }
  }
