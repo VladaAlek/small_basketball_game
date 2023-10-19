@@ -14,6 +14,9 @@ document.getElementById('resetBtn').addEventListener('click', resetGame);
 //calls for playBtnHost function with nested updateScore function
 function playHost() {
     updateScore(1);
+
+    // calling stopAllAudio() function
+    stopAllAudio();
 }
 
 //calls for playGuest function with nested updateScore function
@@ -117,6 +120,9 @@ function resetGame() {
     // activate the players buttons 
     document.getElementById('playBtnHost').disabled = false;
     document.getElementById('playBtnGuest').disabled = false;
+
+    // calling stopAllAudio() function
+    stopAllAudio();
 }
 
 /**
@@ -125,9 +131,9 @@ function resetGame() {
 function hideInstruction() {
     document.getElementById('instruction-container').style.display = 'none';
 }
-// make function to stop the sound overlaping
-// call this function above
-
+/**
+ * function to stop the sound when plyers press the play button again
+*/
 function stopAllAudio() {
     // retrive audio files
     let audios = document.getElementsByTagName('audio');
