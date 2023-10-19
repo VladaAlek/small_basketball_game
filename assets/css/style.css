@@ -1,276 +1,285 @@
- @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 
- html {
-     font-size: 62.5%;
- }
+html {
+    font-size: 62.5%;
+}
 
- body {
-     font-family: 'Raleway', sans-serif;
-     text-align: center;
-     padding: 0.5rem;
-     box-sizing: border-box;
-     background-image: linear-gradient(to right bottom, #370528, #7e1e39, #bd4d36, #e58d21, #ebd812);
-     min-height: 100vh;
- }
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right bottom, #370528, #7e1e39, #bd4d36, #e58d21, #ebd812);
+    min-height: 100vh;
+}
 
- /*styling instruction-container and its content*/
+/*styling instruction-container and its content*/
 
- #instruction-container {
-     width: 100%;
-     min-height: 100vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: fixed;
-     top: 0;
-     left: 0;
-     background-color: rgba(0, 0, 0, 0.7);
-     z-index: 1000;
- }
+#instruction-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
 
- /*add media queries, especially for the flipped small-size mobile devices*/
- #instruction-content {
-     background-color: #1b1919;
-     color: #fff;
-     padding: 20px;
-     border-radius: 10px;
-     width: 80%;
-     max-height: 50vh;
-     overflow-y: auto;
- }
+/*add media queries, especially for the flipped small-size mobile devices*/
+#instruction-content {
+    background-color: #1b1919;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-height: 50vh;
+    overflow-y: auto;
+}
 
- #instruction-title {
-     margin: 0;
-     font-weight: 700;
- }
+#instruction-title {
+    margin: 0;
+    font-weight: 700;
+}
 
- ul {
-     text-align: left;
- }
+ul {
+    text-align: left;
+}
 
- ul li {
-     list-style-type: none;
-     font-size: 1rem;
-     margin-bottom: 0.5rem;
- }
+ul li {
+    list-style-type: none;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
 
-  ! ! ! #start-game-btn {
-     width: 120px;
-     height: 60px;
-     padding: 10px;
-     color: #1b1919;
-     background-color: #fff;
-     border: 3px solid #fff;
-     border-radius: 10px;
-     font-size: 26px;
-     font-weight: 700;
-     transition: 0.5s;
- }
+#start-game-btn {
+    width: 6rem;
+    height: 3rem;
+    padding: 0.5rem;
+    color: #1b1919;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    transition: 0.5s;
+}
 
- #start-game-btn:hover {
-     border: 2px solid #eacd14;
-     color: #1b1919;
-     background-color: #eacd14;
- }
-
-
- /*style for landing section*/
-
- .title-div {
-     background-image: url('../images/title-div-photo.webp');
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
-     padding: 5px;
-     height: 320px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
+#start-game-btn:hover {
+    border: 2px solid #eacd14;
+    color: #1b1919;
+    background-color: #eacd14;
+}
 
 
- /*use color-picker in mozzila to change this yellow color*/
- /*check font-weight*/
- h1 {
-     color: #eacd14;
-     font-size: 2rem;
-     font-weight: 700;
-     text-align: center;
- }
+/*style for landing section*/
 
- #scoreboard {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     flex-wrap: wrap;
-     min-height: 150px;
-     max-height: 200px;
-     padding-bottom: 80px;
- }
+.title-div {
+    background-image: url('../images/title-div-photo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.5rem;
+    height: 32rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
- .score-inner-div {
-     min-height: 150px;
-     max-height: 200px;
- }
 
- p {
-     font-size: 2.5rem;
-     font-style: italic;
-     font-weight: 700;
-     /*text-shadow: 1px 1px rgb(184, 179, 179);*/
-     color: rgb(7, 7, 7);
- }
+/*use color-picker in mozzila to change this yellow color*/
+/*check font-weight*/
+h1 {
+    color: #eacd14;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
 
- #versus-id {
-     font-size: 60px;
-     color: #eacd14;
- }
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 15rem;
+    max-height: 20rem;
+    padding-bottom: 8rem;
+}
 
- #score1,
- #score2 {
-     font-size: 100px;
-     color: aliceblue;
- }
+.score-inner-div {
+    min-height: 15rem;
+    max-height: 20rem;
+}
 
- .gameContainer {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     flex-wrap: wrap;
-     height: 120px;
-     margin-top: 10px;
-     /*margin-bottom: 30px;*/
-     box-shadow: 2px 3px 14px 1px rgba(0, 0, 0, 0.89);
- }
+p {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 700;
+    /*text-shadow: 1px 1px rgb(184, 179, 179);*/
+    color: rgb(7, 7, 7);
+}
 
- #playBtnHost,
- #playBtnGuest {
-     width: 125px;
-     height: 60px;
-     padding: 1rem;
-     border: 2px solid rgb(186, 213, 236);
-     background-color: aliceblue;
-     border-radius: 10px;
-     font-size: 20px;
-     font-weight: 400;
-     transition: 0.5s;
- }
+#versus-id {
+    font-size: 6rem;
+    color: #eacd14;
+}
 
- #playBtnHost:hover,
- #playBtnGuest:hover {
-     border: 3px solid #3a0629;
-     color: #3a0629;
-     font-size: 22px;
- }
+#score1,
+#score2 {
+    font-size: 10rem;
+    color: aliceblue;
+}
 
- /*style container for images*/
+.gameContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 12rem;
+    margin-top: 1rem;
+    /*margin-bottom: 30px;*/
+    box-shadow: 2px 3px 14px 1px rgba(0, 0, 0, 0.89);
+}
 
- .imageDisplay {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     width: 100%;
-     height: 294px;
-     overflow: hidden;
-     margin-top: 1rem;
- }
+#playBtnHost,
+#playBtnGuest {
+    width: 12.5rem;
+    height: 6rem;
+    padding: 1rem;
+    border: 2px solid #bbd5ec;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    transition: 0.5s;
+}
 
- /* to make upper part of photos visiable - try Vladimir*/
- #miss,
- #onePoint,
- #twoPoints,
- #threePoints,
- #host-winer-image,
- #guest-winer-image {
-     display: none;
-     width: 310px;
-     height: 310px;
-     object-fit: cover;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
- }
+#playBtnHost:hover,
+#playBtnGuest:hover {
+    border: 3px solid #3a0629;
+    color: #3a0629;
+    font-size: 2.2rem;
+}
 
- /*reset button style*/
+/*style container for images*/
 
- #resetBtn {
-     width: 125px;
-     height: 60px;
-     padding: 1rem;
-     border: 2px solid rgb(186, 213, 236);
-     background-color: aliceblue;
-     border-radius: 10px;
-     font-size: 20px;
-     font-weight: 400;
-     transition: 0.5s;
-     margin-top: 1rem;
- }
+.imageDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 294px;
+    overflow: hidden;
+    margin-top: 1rem;
+}
 
- #resetBtn:hover {
-     border: 3px solid #3a0629;
-     color: #3a0629;
-     font-size: 22px;
- }
+/* to make upper part of photos visiable - try Vladimir*/
+/* make images bigger for small size screens*/
+#miss,
+#onePoint,
+#twoPoints,
+#threePoints,
+#host-winer-image,
+#guest-winer-image {
+    display: none;
+    width: 30.1rem;
+    height: 30.1rem;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
- /*media queris for screen size 500px and bigger*/
+/*reset button style*/
 
- @media screen and (min-width: 500px) {
+#resetBtn {
+    width: 12.5rem;
+    height: 6rem;
+    padding: 1rem;
+    border: 2px solid rgb(186, 213, 236);
+    background-color: aliceblue;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    transition: 0.5s;
+    margin-top: 1rem;
+}
 
-     h1 {
-         font-size: 40px;
-     }
+#resetBtn:hover {
+    border: 3px solid #3a0629;
+    color: #3a0629;
+    font-size: 2.2rem;
+}
 
-     ul {
-         text-align: center;
-     }
+/*media queris for screen size 500px and bigger*/
 
-     ul li {
-         font-size: 1.5rem;
-         margin-bottom: 1.5rem;
-     }
- }
+@media screen and (min-width: 500px) {
 
- @media screen and (min-width: 810px) {
+    h1 {
+        font-size: 4rem;
+    }
 
-     h1 {
-         font-size: 70px;
-     }
- }
+    ul {
+        text-align: center;
+    }
 
- /*styling 404 page*/
+    ul li {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
 
- /* add responsive styling to this page too*/
- #error-title {
-     font-size: 180px;
-     margin-top: 150px;
-     text-shadow: 0.4rem 0.4rem #000000b3;
-     height: 20vh;
- }
+@media screen and (min-width: 810px) {
 
- #error-page-paragraph {
-     font-size: 40px;
- }
+    h1 {
+        font-size: 7rem;
+    }
 
- #error-page-button {
-     width: 150px;
-     height: 80px;
-     padding: 10px;
-     color: #1b1919;
-     background-color: #fff;
-     border: 3px solid #eacd14;
-     border-radius: 10px;
-     font-size: 26px;
-     font-weight: 700;
-     transition: 0.5s;
-     margin-top: 70px;
-     text-decoration: none;
-     margin-top: 60px;
- }
+    #start-game-btn {
+        width: 12rem;
+        height: 6rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 2.6rem;
+    }
+}
 
- #error-page-button:hover {
-     border: 2px solid #eacd14;
-     color: #1b1919;
-     background-color: #eacd14;
- }
+/*styling 404 page*/
+
+/* add responsive styling to this page too*/
+#error-title {
+    font-size: 18rem;
+    margin-top: 15rem;
+    text-shadow: 0.4rem 0.4rem #000000b3;
+    height: 20vh;
+}
+
+#error-page-paragraph {
+    font-size: 4rem;
+}
+
+#error-page-button {
+    width: 15rem;
+    height: 8rem;
+    padding: 1rem;
+    color: #1b1919;
+    background-color: #fff;
+    border: 3px solid #eacd14;
+    border-radius: 1rem;
+    font-size: 2.6rem;
+    font-weight: 700;
+    transition: 0.5s;
+    margin-top: 7rem;
+    text-decoration: none;
+    margin-top: 6rem;
+}
+
+#error-page-button:hover {
+    border: 2px solid #eacd14;
+    color: #1b1919;
+    background-color: #eacd14;
+}
