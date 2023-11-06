@@ -29,32 +29,40 @@ body {
 }
 
 /*add media queries, especially for the flipped small-size mobile devices*/
+
 #instruction-content {
     background-color: #1b1919;
     color: #fff;
     padding: 20px;
     border-radius: 10px;
     width: 80%;
-    max-height: 50vh;
+    height: 70rem;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #instruction-title {
-    margin: 0;
     font-weight: 700;
+    margin-top: 3rem;
 }
 
 ul {
+    width: 80%;
     text-align: left;
+    margin-bottom: 0.5rem;
+    margin-top: 6rem;
+    list-style-type: none;
 }
 
 ul li {
-    list-style-type: none;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 2, 5rem;
 }
 
 #start-game-btn {
+    margin-top: 6rem;
     width: 6rem;
     height: 3rem;
     padding: 0.5rem;
