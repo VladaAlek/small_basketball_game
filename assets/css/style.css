@@ -282,7 +282,7 @@ p {
     transition: 0.5s;
     margin-top: 7rem;
     text-decoration: none;
-    /*?margin-top: 6rem;*/
+    margin-top: 6rem;
 }
 
 #error-page-button:hover {
