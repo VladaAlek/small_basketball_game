@@ -10,8 +10,6 @@ The goal of this simple online game is to entertain users, especially those pass
 
 ## Users Benefits and Goals
 
-### User's Benefits and Goals
-
 #### A) For the first-time user
 
 The game's objective is to score 21 points.
@@ -35,7 +33,7 @@ The appearance of photos is followed by an appropriate **soundtrack******.
 The**conclusion of the game**is marked by a relevant photo announcing the winning team, host, or guest.
 The**Reset Game** button is used to initiate a fresh start of the game.
 
-                 ![Figure no. 2](assets/images/main-page-screenshot.webp)
+![Figure no. 2](assets/images/main-page-screenshot.webp)
 
 **Error page**
 
@@ -50,12 +48,11 @@ For website users, having a well-designed Error Page is essential. In keeping wi
 - [Faststone Image Viewer](https://www.faststone.org/ "Faststone Image Viewer") was utilised for image resizing and photo editing.
 - [Mycolor Space](https://mycolor.space/ "Mycolor Space") is used to create a background color gradient.
 - [Box-Shadow CSS Generator](https://html-css-js.com/ "Box-Shadow CSS Generator") used to create box shadows.
- ![Readability](assets/images/coolors-contrast-checker-white.webp) coolors contrast checker
+- ![Readability](assets/images/coolors-contrast-checker-white.webp) contrloled by [coolors contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5 "coolors contrast checker")
 - Favicon used courtesy of: <a href="https://www.flaticon.com/free-icons/sports-and-competition" title="sports and competition icons"> Freepik - Flaticon</a>
 - [CSS overflow-y Property](https://www.w3schools.com/cssref/css3_pr_overflow-y.php "CSS overflow-y Property")
 - [PX to REM conversion method](https://www.youtube.com/watch?v=crVDQf7T0d4&t=985s "PX to REM conversion method")
 - [Audiotrimer](https://audiotrimmer.com/ "Audiotrimer") to reduce the length of the audio material
-- Source for the audio files available in comments in the index.html file
 - Source for the audio files available in comments in the index.html file
 -[www.w3schools]: <https://www.w3schools.com/jsref/prop_style_display.asp> for Style display Property
 -[SheCodes](https://www.shecodes.io/athena/121718-how-to-use-transform-translate-50-50-to-center-an-element-in-css "SheCodes") for transform: translate(-50%, -50%) CSS code
@@ -75,8 +72,44 @@ For website users, having a well-designed Error Page is essential. In keeping wi
 - Author: Dr. Vladimir Aleksic
 - Contact Details: vladimiraleksic.nis@gmail.com
 - Licence: Creative Commons
-- [Git](https://github.com/ "Git") Version control was managed using Git, with commits executed via the Gitpod terminal and pushes directed to GitHub.
--[GitHub](https://github.com/ "GitHub") The project's code is stored on GitHub after being pushed from Git.
+- Git Version control was managed using Git, with commits executed via the Gitpod terminal and pushes directed to GitHub. 
+-GitHub The project's code is stored on GitHub after being pushed from Git.
+
+The idea and resource code implemented into this product came from the following learning sources:
+
+#### Code Institute
+
+1. ws html 2
+	- buttons (cc 1:08 min)
+	- span (cc 2:40 min)
+	correct answer (cc 4.00 min)
+2. Let´s get some stylish
+	-submit (after 2:15 min)
+3. Adding structure
+4. Creating Event Listners
+	Loading Page
+	2:54 Let (botton for buttons)
+	if button 4:40
+5. Generating random numbers
+	-Built-in Functions - Working With Math
+
+5.
+
+09- Displying the Additional Question
+10 Calculating Rerurn 4:10
+11 Updating the Scores 2:10
+
+Original wireframe design delivered by Balsamiq:
+
+![Figure no. 1](assets/images/new-project-1-1.webp)
+![Figure no. 2](assets/images/new-project-1-2-1.webp)
+![Figure no. 3](assets/images/new-project-1-3-1.webp)
+
+Menthor suggested the creation of the Instruction layer and introduction of a obvious responce, in this case audio, when clicking Host/Guest buttons
+
+#### SuperSimpleDev
+
+[JavaScript Full Course (2023) - Beginner to Pro - Part 1](https://www.youtube.com/watch?v=SBmSRK3feww&t=8348s "JavaScript Full Course (2023) - Beginner to Pro - Part 1")
 
 ## Testing and debugging
 
@@ -118,41 +151,3 @@ For these two categories, the website offers a captivating experience which temp
 
 - Mentor Narender Singh
 - Sarah, Roman, and Oisin from CI Tutor Team
-
-### Design process
-
-The idea and resource code implemented into this product came from the following learning sources:
-
-#### Code Institute
-
-1. ws html 2
-	- buttons (cc 1:08 min)
-	- span (cc 2:40 min)
-	correct answer (cc 4.00 min)
-2. Let´s get some stylish
-	-submit (after 2:15 min)
-3. Adding structure
-4. Creating Event Listners
-	Loading Page
-	2:54 Let (botton for buttons)
-	if button 4:40
-5. Generating random numbers
-	-Built-in Functions - Working With Math
-
-5.
-
-09- Displying the Additional Question
-10 Calculating Rerurn 4:10
-11 Updating the Scores 2:10
-
-Original wireframe design delivered by Balsamiq: 
-
-![Figure no. 1](assets/images/new-project-1-1.webp)
-![Figure no. 2](assets/images/new-project-1-2-1.webp)
-![Figure no. 3](assets/images/new-project-1-3-1.webp)
-
-Menthor suggested the creation of the Instruction layer and introduction of a obvious responce, in this case audio, when clicking Host/Guest buttons
-
-#### SuperSimpleDev
-
-[JavaScript Full Course (2023) - Beginner to Pro - Part 1](https://www.youtube.com/watch?v=SBmSRK3feww&t=8348s "JavaScript Full Course (2023) - Beginner to Pro - Part 1")
