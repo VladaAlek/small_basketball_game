@@ -28,8 +28,6 @@ body {
     z-index: 1000;
 }
 
-/*add media queries, especially for the flipped small-size mobile devices*/
-
 #instruction-content {
     background-color: #1b1919;
     color: #fff;
@@ -58,7 +56,7 @@ ul {
 
 ul li {
     font-size: 2rem;
-    margin-bottom: 2, 5rem;
+    margin-bottom: 2.5rem;
 }
 
 #start-game-btn {
@@ -80,7 +78,6 @@ ul li {
     color: #1b1919;
     background-color: #eacd14;
 }
-
 
 /*style for landing section*/
 
@@ -240,7 +237,7 @@ p {
     }
 
     ul li {
-        font-size: 1.5rem;
+        font-size: 3.5rem;
         margin-bottom: 1.5rem;
     }
 }
