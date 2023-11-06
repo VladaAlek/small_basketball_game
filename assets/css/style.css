@@ -258,7 +258,6 @@ p {
 
 /*styling 404 page*/
 
-/* add responsive styling to this page too*/
 #error-title {
     font-size: 18rem;
     margin-top: 15rem;
@@ -276,14 +275,14 @@ p {
     padding: 1rem;
     color: #1b1919;
     background-color: #fff;
-    border: 3px solid #eacd14;
+    border: 2px solid rgb(186, 213, 236);
     border-radius: 1rem;
     font-size: 2.6rem;
     font-weight: 700;
     transition: 0.5s;
     margin-top: 7rem;
     text-decoration: none;
-    margin-top: 6rem;
+    /*?margin-top: 6rem;*/
 }
 
 #error-page-button:hover {
