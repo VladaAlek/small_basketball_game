@@ -137,5 +137,6 @@ function stopAllAudio() {
     // for loop 
     for (let i = 0; i < audios.length; i++) {
         audios[i].pause();
+        audios[i].currentTime = 0;
     }
 }

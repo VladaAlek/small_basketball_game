@@ -72,8 +72,9 @@ Users can conveniently navigate back to the Main Page using the **Homepage** but
 - [SheCodes](https://www.shecodes.io/athena/121718-how-to-use-transform-translate-50-50-to-center-an-element-in-css "SheCodes") for transform: translate(-50%, -50%) CSS code
 - [flex-wrap](http://https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap "flex-wrap") used as a learning source.
 - [PX to REM conversion method](https://www.youtube.com/watch?v=crVDQf7T0d4&t=985s "PX to REM conversion method")
--[www.w3schools.com](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp "www.w3schools.com") for Button disabled Property
--[Audio Paused](https://www.w3schools.com/jsref/met_audio_pause.asp "Audio Paused") user for stopAllAudio function.
+- [www.w3schools.com](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp "www.w3schools.com") for Button disabled Property
+- [Audio Paused](https://www.w3schools.com/jsref/met_audio_pause.asp "Audio Paused") user for stopAllAudio function.
+- [Reset Time of the Audio Track](https://www.w3schools.com/tags/av_prop_currenttime.asp "Reset Time of the Audio Track")
 
 
 ### Typography
@@ -160,6 +161,7 @@ For these two categories, the website offers a captivating experience which temp
 -Extensive testing was conducted to verify correct linking across all pages, including the 404.html page and Google Fonts URL.
 
 ### Known Bugs
+If the point of one player is followed by the same point value of the consequent player, the audio will not stop, but it will continue to play the same audio track.
 
 ### Acknowledgments
 
