@@ -14,9 +14,6 @@ document.getElementById('resetBtn').addEventListener('click', resetGame);
 //calls for playBtnHost function with nested updateScore function
 function playHost() {
     updateScore(1);
-
-    // calling stopAllAudio() function
-    stopAllAudio();
 }
 
 //calls for playGuest function with nested updateScore function
@@ -26,7 +23,7 @@ function playGuest() {
 
 /**
  * creates the random score and increase its values
- * make crore photos visible
+ * make score photos visible
 */
 function updateScore(player) {
 
@@ -51,7 +48,7 @@ function updateScore(player) {
         document.getElementById('audioThreePoints').play();
     }
 
-    //increase the original score for the value of the outcome of the if statement from above
+    //increase the original score for the value of the outcome of the "If statement" from above
     if (player === 1) {
         score1 += score;
         // update the score1
@@ -138,7 +135,7 @@ function stopAllAudio() {
     // retrive audio files
     let audios = document.getElementsByTagName('audio');
     // for loop 
-    for (let i = 0; i <= audios.length; i++) {
+    for (let i = 0; i < audios.length; i++) {
         audios[i].pause();
     }
 }

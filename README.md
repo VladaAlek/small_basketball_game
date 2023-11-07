@@ -58,18 +58,19 @@ Users can conveniently navigate back to the Main Page using the **Homepage** but
 - [Audiotrimer](https://audiotrimmer.com/ "Audiotrimer") to reduce the length of the audio material
 - Source for the audio files available in comments in the index.html file
 - [Screenshot Generator](https://www.screenshotmachine.com/website-screenshot-generator.php> "Screenshot Generator")
--Mozilla Dev-Tool color picker
+- Mozilla Dev-Tool color picker
+- [Markdown Editor](https://markdown-editor.github.io/ "Markdown Editor")
 - Git Version control was managed using Git, with commits executed via the Gitpod terminal and pushes directed to GitHub.
 - GitHub The project's code is stored on GitHub after being pushed from Git.
--Readibility controled by [coolors contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5 "coolors contrast checker")
+- Readibility controled by [coolors contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5 "coolors contrast checker")
 ![Readability](assets/images/coolors-contrast-checker-white.webp)
 
 ------------
 
 - [CSS overflow-y Property](https://www.w3schools.com/cssref/css3_pr_overflow-y.php "CSS overflow-y Property")
--[www.w3schools]: <https://www.w3schools.com/jsref/prop_style_display.asp> for Style display Property
--[SheCodes](https://www.shecodes.io/athena/121718-how-to-use-transform-translate-50-50-to-center-an-element-in-css "SheCodes") for transform: translate(-50%, -50%) CSS code
--[flex-wrap](http://https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap "flex-wrap") used as a learning source.
+- [www.w3schools]: <https://www.w3schools.com/jsref/prop_style_display.asp> for Style display Property
+- [SheCodes](https://www.shecodes.io/athena/121718-how-to-use-transform-translate-50-50-to-center-an-element-in-css "SheCodes") for transform: translate(-50%, -50%) CSS code
+- [flex-wrap](http://https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap "flex-wrap") used as a learning source.
 - [PX to REM conversion method](https://www.youtube.com/watch?v=crVDQf7T0d4&t=985s "PX to REM conversion method")
 -[www.w3schools.com](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp "www.w3schools.com") for Button disabled Property
 -[Audio Paused](https://www.w3schools.com/jsref/met_audio_pause.asp "Audio Paused") user for stopAllAudio function.
@@ -113,13 +114,13 @@ The idea and resource code implemented into this product came from the following
 
 - Chapters 6, 7 and further
 
-Original wireframe design delivered by Balsamiq:
+Original wireframe design delivered by [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=CjwKCAiA3aeqBhBzEiwAxFiOBmn_O6IcpGR1wjiCbsEXQTUx9ZDrOURnCW13o2_oEcZRXq5_mTNkUhoCPBAQAvD_BwE "Balsamiq"):
 
 ![Figure no. 1](assets/images/new-project-1-1.webp)
 ![Figure no. 2](assets/images/new-project-1-2-1.webp)
 ![Figure no. 3](assets/images/new-project-1-3-1.webp)
 A significant departure from the initial design involves removing the "Guest Wins!" section, present in the Figure no. 3 and repositioning the "Host," "Guest," and "Reset Button" elements.
-Menthor suggested the creation of the Instruction layer and introduction of a obvious responce, in this case audio, when clicking Host/Guest buttons
+Menthor suggested the creation of the **Instruction Layer** and introduction of a obvious, dynamic responce, in this case audio, when clicking Host/Guest buttons
 
 ## Testing and debugging
 
@@ -127,7 +128,7 @@ Menthor suggested the creation of the Instruction layer and introduction of a ob
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validator")
 - [Python Tutor](https://pythontutor.com/ "Python Tutor") used as a visual debugger for visually analyzing code step-by-step.
 - [Jshint](<https://jshint.com/> "Jshint") used as a visual debugger and validator.
--Console reports indicate the missing parts of the code and determine the next coding steps.
+- Console reports indicate the missing parts of the code and determine the next coding steps.
 
 ![Console report](assets/images/console.webp)
 
@@ -149,7 +150,7 @@ For these two categories, the website offers a captivating experience which temp
 #### Observations on Smartphone Device Adaptability
 
 - We identified a design constraint on smartphones when the device orientation is switched to landscape mode. In the initial design, it wasn't possible to see the “Score Board”, “Game Container”, and the associated images all at once.
-- In our *updated design*, we've made modifications to the height of the “Game Container” and adjusted margins. This ensures a better view of all three sections. While this enhancement addresses the design and functionality challenges to some extent, it's a step forward, but not a complete resolution.
+- In our *updated design*, we've made modifications to the height of the “Game Container” and adjusted margins. This ensures a better view of all three sections. While this enhancement addresses the design and functionality challenges to some extent, it's a step forward, but not a complete resolution of the observed problem.
 
 ### Further Testing
 
@@ -163,4 +164,4 @@ For these two categories, the website offers a captivating experience which temp
 ### Acknowledgments
 
 - Mentor Narender Singh
-- Sarah, Roman, and Oisin from CI Tutor Team
+- Sarah, Roman, and Oisin from CI Tutor Team :-)
