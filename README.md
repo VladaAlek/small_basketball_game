@@ -27,16 +27,17 @@ The **favicon** appears in the browser's address bar when visiting the site.
 **Instruction Page**
 
 Upon loading the page, the user is presented with the game's straightforward rules. They are displayed on a black overlay above the main site page. The game begins when the user clicks the **start button**.
-The project consists of the **main** and **error** page
+The project consists of the **main** and **error** page.
 The **main page** captivates the user's interest with an inspiring image and a title in *the landing* section.
 
 **Main Page**
 
 The game boasts multiple **interactive elements**.
-Notably, there are two main buttons: *'Host'* and *'Guest.'* These buttons allow players to earn 0, 1, 2, or 3 points with every click. The accumulated points are displayed in real-time on the **result board.** Additionally, based on the points scored, relevant **photos** are showcased beneath the gaming console. For example, scoring 3 points reveals an image of a player taking a shot from the 3-point line.
-The appearance of photos is followed by an appropriate **soundtrack**.
-The **conclusion of the game** is marked by a relevant photo announcing the winning team, host, or guest.
-The **Reset Game** button is used to initiate a fresh start of the game.
+- Notably, there are two main buttons: *'Host'* and *'Guest.'* These buttons allow players to earn 0, 1, 2, or 3 points with every click. 
+- The accumulated points are displayed in real-time on the **result board.** Additionally, based on the points scored, relevant **photos** are showcased beneath the gaming console. For example, scoring 3 points reveals an image of a player taking a shot from the 3-point line.
+- The appearance of photos is followed by an appropriate **soundtrack**.
+- The **conclusion of the game** is marked by a relevant photo announcing the winning team, host, or guest, and the sound of the blowing whistle.
+- The **Reset Game** button is used to initiate a fresh start of the game.
 
 ![Figure no. 2](assets/images/main-page-screenshot.webp)
 
@@ -120,8 +121,8 @@ Original wireframe design delivered by [Balsamiq](https://balsamiq.com/wireframe
 ![Figure no. 1](assets/images/new-project-1-1.webp)
 ![Figure no. 2](assets/images/new-project-1-2-1.webp)
 ![Figure no. 3](assets/images/new-project-1-3-1.webp)
-A significant departure from the initial design involves removing the "Guest Wins!" section, present in the Figure no. 3 and repositioning the "Host," "Guest," and "Reset Button" elements.
-Menthor suggested the creation of the **Instruction Layer** and introduction of a obvious, dynamic responce, in this case audio, when clicking Host/Guest buttons
+- A significant departure from the initial design involves removing the "Guest Wins!" section, present in the Figure no. 3 and repositioning the "Host," "Guest," and "Reset Button" elements.
+- Mentor suggested the creation of the **Instruction Layer** and introduction of a obvious, dynamic responce, in this case audio, when clicking Host/Guest buttons
 
 ## Testing and debugging
 
@@ -166,7 +167,8 @@ For these two categories, the website offers a captivating experience which temp
 -Extensive testing was conducted to verify correct linking across all pages, including the 404.html page and Google Fonts URL.
 
 ### Known Bugs
-If the point of one player is followed by the same point value of the consequent player, the audio will not stop, but it will continue to play the same audio track.
+- If the point of one player is followed by the same point value of the consequent player, the audio will not stop, but it will continue to play the same audio track.
+- design issue: Game Rules Instruction not scrollbar on small-size devices when rotated horisontaly
 
 ### Acknowledgments
 

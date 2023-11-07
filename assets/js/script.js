@@ -5,7 +5,7 @@ let score2 = 0;
 // add eventListner to Start Game button
 document.getElementById('start-game-btn').addEventListener('click', hideInstruction);
 
-// ad event listeners to Host and Guest buttons
+// ad event listeners to Host, Guest and Reset buttons
 // attach the functions to the event listeners
 document.getElementById('playBtnHost').addEventListener('click', playHost);
 document.getElementById('playBtnGuest').addEventListener('click', playGuest);
@@ -68,7 +68,6 @@ function updateScore(player) {
 */
 function hideAllImages() {
     let divs = document.getElementsByClassName('imageDisplay');
-
     for (let i = 0; i < divs.length; i++) {
         let images = divs[i].getElementsByTagName('img');
         for (let j = 0; j < images.length; j++) {
@@ -81,7 +80,6 @@ function hideAllImages() {
  * Determins the winner of the game and delivers the report 
  */
 function checkForWinner() {
-
     if (score1 >= 21) {
         hideAllImages();
         document.getElementById('host-winer-image').style.display = 'block';
@@ -98,14 +96,14 @@ function checkForWinner() {
 /**
  * prevent players to play anny more if the score is more than 21 points
  */
-
 function disablePlayButtons() {
     document.getElementById('playBtnHost').disabled = true;
     document.getElementById('playBtnGuest').disabled = true;
 }
+
 /**
+ * calls hideAllImages function 
  * reset scores for both players to zero
- * calls hideAllImages function / removes all photos from the screen
  */
 function resetGame() {
     hideAllImages();
@@ -117,8 +115,7 @@ function resetGame() {
     // activate the players buttons 
     document.getElementById('playBtnHost').disabled = false;
     document.getElementById('playBtnGuest').disabled = false;
-
-    // calling stopAllAudio() function
+    // calling stopAllAudio function
     stopAllAudio();
 }
 
