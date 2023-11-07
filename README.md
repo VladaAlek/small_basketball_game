@@ -133,6 +133,10 @@ Menthor suggested the creation of the **Instruction Layer** and introduction of 
 
 ![Console report](assets/images/console.webp)
 
+- Console reports indicate the wrong pathway to the audio file
+![Console report](assets/images/console_path.webp)
+  
+
 ## Testing User Stories from the UX Section
 
 #### First-Time Visitor Goals
