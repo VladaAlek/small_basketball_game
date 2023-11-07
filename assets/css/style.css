@@ -93,9 +93,6 @@ ul li {
     justify-content: center;
 }
 
-
-/*use color-picker in mozzila to change this yellow color*/
-/*check font-weight*/
 h1 {
     color: #eacd14;
     font-size: 2rem;
@@ -122,7 +119,6 @@ p {
     font-size: 2.5rem;
     font-style: italic;
     font-weight: 700;
-    /*text-shadow: 1px 1px rgb(184, 179, 179);*/
     color: rgb(7, 7, 7);
 }
 
@@ -196,7 +192,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-/*reset button style*/
+/*styling reset button*/
 
 #resetBtn {
     width: 12.5rem;

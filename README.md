@@ -127,6 +127,7 @@ Menthor suggested the creation of the **Instruction Layer** and introduction of 
 
 - [W3C Markup Validator](https://validator.w3.org/ "W3C Markup Validator")
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input "W3C CSS Validator")
+![Figure no. 1](assets/images/validation-tests.webp)
 - [Python Tutor](https://pythontutor.com/ "Python Tutor") used as a visual debugger for visually analyzing code step-by-step.
 - [Jshint](<https://jshint.com/> "Jshint") used as a visual debugger and validator.
 - Console reports indicate the missing parts of the code and determine the next coding steps.
