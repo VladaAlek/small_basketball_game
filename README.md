@@ -167,7 +167,7 @@ For these two categories, the website offers a captivating experience which temp
 -Extensive testing was conducted to verify correct linking across all pages, including the 404.html page and Google Fonts URL.
 
 ### Known Bugs
-- If the point of one player is followed by the same point value of the consequent player, the audio will not stop, but it will continue to play the same audio track.
+- If the point of one player is followed by the move of the consequent player, the initial audio will not stop, but it will continue to play, followed by the sound atributed to the consequent player score.
 - design issue: Game Rules Instruction not scrollbar on small-size devices when rotated horisontaly
 
 ### Acknowledgments
